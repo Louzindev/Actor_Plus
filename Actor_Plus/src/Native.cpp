@@ -21,7 +21,7 @@ namespace Native {
         char* text = new char[101];
         lzn::amx_GetStr(amx, params[2], text, 100);
 
-        actor_p::SetActorChatBubble(actorid, static_cast<const char*>(text), static_cast<int>(params[3]));
+        actor_p::SetActorChatBubble(actorid, static_cast<const char*>(text));
         return 1;
     }
 

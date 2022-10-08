@@ -18,6 +18,12 @@ namespace Native {
     AMX_DECLARE_NATIVE(IsPlayerAimingActor);
     // native SetActorChatBubble(const actorid, const str[]);
     AMX_DECLARE_NATIVE(SetActorChatBubble);
+    // native SetActorName(const actorid, const name[]);
+    AMX_DECLARE_NATIVE(SetActorName);
+    // native GetActorName(const int actor, dest[], size = sizeof(dest));
+    AMX_DECLARE_NATIVE(GetActorName);
+    // native ToggleActorTalk(const int actorid, bool toggle);
+    AMX_DECLARE_NATIVE(ToggleActorTalk);
     AMX_NATIVE_INFO PluginNatives[];
 }
 

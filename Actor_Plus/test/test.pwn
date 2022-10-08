@@ -5,14 +5,14 @@
 main() 
 {
 }
-
+new actor;
 public OnGameModeInit() {
-	new actor = CreateActor(21, 129.9311,-71.6216,1.5781,153.7815);
-	SetActorChatBubble(actor, "Ola pohaaaa");
+	actor = CreateActor(21, 129.9311,-71.6216,1.5781,153.7815);
 	return 1;
 }
 
 public OnPlayerSpawn(playerid) {
+	SetActorChatBubble(actor, "Ola pohaaaa", 5);
 	SetPlayerPos(playerid, 129.9311,-71.6216,1.5781);
 	return 1;
 }
