@@ -1,0 +1,116 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:04:35] language = ""  (string)
+[23:04:35] 
+[23:04:35] Server Plugins
+[23:04:35] --------------
+[23:04:35]  Loading plugin: Actor_Plus.dll
+[23:04:35]  * Test plugin was loaded.
+[23:04:35]   Loaded.
+[23:04:35]  Loaded 1 plugins.
+
+[23:04:35] 
+[23:04:35] Filterscripts
+[23:04:35] ---------------
+[23:04:35]   Loaded 0 filterscripts.
+
+[23:04:35] Number of vehicle models: 0
+[23:05:56] [connection] incoming connection: 127.0.0.1:52366 id: 0
+[23:05:57] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+[23:06:35] [part] Louzin_Deev has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:27:50] language = ""  (string)
+[23:27:50] 
+[23:27:50] Server Plugins
+[23:27:50] --------------
+[23:27:50]  Loading plugin: Actor_Plus.dll
+[23:27:50]  * Test plugin was loaded.
+[23:27:50]   Loaded.
+[23:27:50]  Loaded 1 plugins.
+
+[23:27:50] 
+[23:27:50] Filterscripts
+[23:27:50] ---------------
+[23:27:50]   Loaded 0 filterscripts.
+
+[23:27:50] Number of vehicle models: 0
+[23:28:07] [connection] incoming connection: 127.0.0.1:54175 id: 0
+[23:28:07] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+[23:29:20] [part] Louzin_Deev has left the server (0:0)
+Console input: exit
+[23:29:54] --- Server Shutting Down.
+[23:29:54]  * Test plugin was unloaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:32:13] language = ""  (string)
+[23:32:13] 
+[23:32:13] Server Plugins
+[23:32:13] --------------
+[23:32:13]  Loading plugin: Actor_Plus.dll
+[23:32:13]  * Test plugin was loaded.
+[23:32:13]   Loaded.
+[23:32:13]  Loaded 1 plugins.
+
+[23:32:13] 
+[23:32:13] Filterscripts
+[23:32:13] ---------------
+[23:32:13]   Loaded 0 filterscripts.
+
+[23:32:13] Actor bubble!
+[23:32:13] Number of vehicle models: 0
+[23:32:32] [connection] incoming connection: 127.0.0.1:50354 id: 0
+[23:32:33] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+[23:33:15] [part] Louzin_Deev has left the server (0:0)
+Console input: exit
+[23:35:02] --- Server Shutting Down.
+[23:35:03]  * Test plugin was unloaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:35:12] language = ""  (string)
+[23:35:12] 
+[23:35:12] Server Plugins
+[23:35:12] --------------
+[23:35:12]  Loading plugin: Actor_Plus.dll
+[23:35:12]  * Test plugin was loaded.
+[23:35:12]   Loaded.
+[23:35:12]  Loaded 1 plugins.
+
+[23:35:12] 
+[23:35:12] Filterscripts
+[23:35:12] ---------------
+[23:35:12]   Loaded 0 filterscripts.
+
+[23:35:12] Actor bubble!
+[23:35:12] Number of vehicle models: 0
+[23:35:40] [connection] incoming connection: 127.0.0.1:49933 id: 0
+[23:35:40] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+[00:23:28] [part] Louzin_Deev has left the server (0:0)
