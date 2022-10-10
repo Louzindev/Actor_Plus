@@ -9,10 +9,12 @@
       "plugins": ["LouzinDeev/Actor_Plus/Plugin"]
     },
     "resources": [
-      {
-        "name": "Actor_Plus.dll",
-        "archive": false,
-        "platform": "windows"
-      }
+        {
+            "name": "Actor_Plus.zip",
+            "platform": "windows",
+            "archive": true,
+            "version": "0.3.7",
+            "plugins": ["Plugins/Actor_Plus.dll"]
+        }
     ]
   }
