@@ -45,6 +45,9 @@
     <ClInclude Include="src\ActorPlus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lib\sdk\amxplugin.cpp">

@@ -1,20 +1,30 @@
-#ifndef ACTORPLUS_H_INCLUDED
-#define ACTORPLUS_H_INCLUDED
+#pragma once
 #include "main.h"
-#include <time.h>
 
-namespace actor_p{
-	struct act_p {
-		const char* name;
-		int nameLabel;
-		const char* speak;
-		int speakLabel;
-		bool talk;
-	};
-	bool IsPlayerAimingActor(const int playerid, const int actorid);
-	void SetActorChatBubble(const int actorid, const char* text);
-	void SetActorName(const int actorid, const char* name);
-	void ToggleActorTalk(const int actorid, bool toggle);
-}
+namespace actor_p {
 
-#endif
+    typedef struct act_plus_data {
+        const char* name;
+        int nameLabel;
+        const char* speak;
+        int speakLabel;
+        int BubbleLabel;
+        bool talk;
+    }act_p;
+
+    typedef struct player_plus_data {
+        int targetActor;
+        int actorAiming;
+        AMX* public_amx;
+    }player_p;
+    
+    void TogglePlayerTargetActor(int playerid, int toggle);
+    bool IsPlayerAimingActor(const int playerid, const int actorid);
+    int GetActorWhoPlayerTarget(const int playerid);
+
+    void SetActorChatBubble(const int actorid, const char* text, int delay = 5);
+
+    void TogglePlayerTargetActor(int playerid, int toggle);
+
+    void GetServerActors();
+};

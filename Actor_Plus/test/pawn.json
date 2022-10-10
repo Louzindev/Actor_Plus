@@ -1,14 +1,23 @@
 {
 	"user": "LouzinDeev",
 	"repo": "test",
-	"tag": "0.0.1",
 	"entry": "test.pwn",
 	"output": "gamemodes/test.amx",
 	"dependencies": [
-		"pawn-lang/samp-stdlib"
+		"pawn-lang/samp-stdlib",
+		"https://github.com/Southclaws/zcmd"
 	],
 	"local": true,
 	"runtime": {
-		"plugins":["Actor_Plus.dll"]
+		"version": "0.3.7",
+		"mode": "server",
+		"plugins": [
+			"Actor_Plus.dll"
+		],
+		"rcon_password": "password",
+		"port": 8192,
+		"hostname": "SA-MP Server",
+		"maxplayers": 50,
+		"language": ""
 	}
 }

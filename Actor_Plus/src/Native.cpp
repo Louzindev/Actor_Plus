@@ -7,28 +7,41 @@ namespace Native {
         return 1;
     }
 
-    AMX_DECLARE_NATIVE(IsPlayerAimingActor) {
+    AMX_DECLARE_NATIVE(TogglePlayerTargetActor) {
+        int playerid = static_cast<int>(params[1]);
+        int toggle = static_cast<int>(params[2]);
+
+        actor_p::TogglePlayerTargetActor(playerid, toggle);
+
+        return 1;
+    }
+
+    AMX_DECLARE_NATIVE(GetActorWhoPlayerTarget) {
         
         int playerid = static_cast<int>(params[1]);
         int actorid = static_cast<int>(params[2]);
 
-        return actor_p::IsPlayerAimingActor(playerid, actorid);
+        return actor_p::GetActorWhoPlayerTarget(playerid);
     }
 
     AMX_DECLARE_NATIVE(SetActorChatBubble) {
         int actorid = static_cast<int>(params[1]);
-        
+
         char* text = new char[101];
         lzn::amx_GetStr(amx, params[2], text, 100);
 
-        actor_p::SetActorChatBubble(actorid, static_cast<const char*>(text));
+        int delay = static_cast<int>(params[3]);
+
+        actor_p::SetActorChatBubble(actorid, static_cast<const char*>(text), delay);
         return 1;
     }
 
+
     AMX_NATIVE_INFO PluginNatives[] = {
         {"HelloWorld", HelloWorld},
-        {"IsPlayerAimingActor", IsPlayerAimingActor},
+        {"GetActorWhoPlayerTarget", GetActorWhoPlayerTarget},
         {"SetActorChatBubble", SetActorChatBubble},
+        {"TogglePlayerTargetActor", TogglePlayerTargetActor},
         {0, 0}
     };
 
