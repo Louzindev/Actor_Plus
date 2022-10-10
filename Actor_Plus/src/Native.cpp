@@ -39,30 +39,51 @@ namespace Native {
     AMX_DECLARE_NATIVE(CheckVersion) {
         int major = static_cast<int>(params[1]);
         int minor = static_cast<int>(params[2]);
+        int patch = static_cast<int>(params[3]);
 
         if (major == MAJOR_VERSION) {
             if (minor < MINOR_VERSION) {
                 logprintf("\n=============> WARNING <=============");
                 logprintf("You're using an old version include for Actor_Plus");
-                logprintf("Actual Version: %d.%d", major, minor);
+                logprintf("Actual Version: %d.%d.%d", major, minor, patch);
                 logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
                 logprintf("=============> WARNING <=============\n\n");
             }
             else if (minor > MINOR_VERSION) {
+                logprintf("\n=============> WARNING <=============");
                 logprintf("You're using an old version plugin for Actor_Plus");
-                logprintf("Actual Version: %d.%d", MAJOR_VERSION, MINOR_VERSION);
+                logprintf("Actual Version: %d.%d.%d", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION);
                 logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+                logprintf("\n=============> WARNING <=============");
+            }
+        }
+        if (major == MAJOR_VERSION && minor == MINOR_VERSION) {
+            if (patch < PATCH_VERSION) {
+                logprintf("You're using an old patch include for Actor_Plus, Consider update it.");
+            }
+            if (patch > PATCH_VERSION) {
+                logprintf("You're using an old patch plugin for Actor_Plus, Consider update it.");
             }
         }
         if (major > MAJOR_VERSION) {
+            logprintf("\n=============> ERROR <=============");
             logprintf("You're using an old version plugin for Actor_Plus");
-            logprintf("Actual Version: %d.%d", MAJOR_VERSION, MINOR_VERSION);
+            logprintf("Actual Version: %d.%d.%d", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION);
             logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+            logprintf("Shuting down...");
+            logprintf("\n=============> ERROR <=============");
+            std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+            GameModeExit();
         }
         if (major < MAJOR_VERSION) {
+            logprintf("\n=============> ERROR <=============");
             logprintf("You're using an old version include for Actor_Plus");
-            logprintf("Actual Version: %d.%d", major, minor);
+            logprintf("Actual Version: %d.%d.%d", major, minor, patch);
             logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+            logprintf("Shuting down...");
+            logprintf("\n=============> ERROR <=============");
+            std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+            GameModeExit();
         }
         return 1;
     }
