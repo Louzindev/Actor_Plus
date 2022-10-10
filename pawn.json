@@ -6,7 +6,7 @@
     "dependencies": ["Southclaws/samp-stdlib"],
     "dev_dependencies": ["pawn-lang/YSI-Includes"],
     "runtime": {
-      "plugins": ["LouzinDeev/Actor_Plus"]
+      "plugins": ["LouzinDeev/Actor_Plus/Plugin"]
     },
     "resources": [
       {
