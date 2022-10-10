@@ -1,0 +1,18 @@
+{
+    "user": "LouzinDeev",
+    "repo": "Actor_Plus",
+    "entry": "test.pwn",
+    "output": "test/gamemodes/test.amx",
+    "dependencies": ["Southclaws/samp-stdlib"],
+    "dev_dependencies": ["pawn-lang/YSI-Includes"],
+    "runtime": {
+      "plugins": ["LouzinDeev/Actor_Plus"]
+    },
+    "resources": [
+      {
+        "name": "Actor_Plus.dll",
+        "archive": false,
+        "platform": "windows"
+      }
+    ]
+  }
