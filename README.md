@@ -13,57 +13,57 @@ return
 ```
 ### SetActorChatBubble
 
-```
+```cpp
 params
     
     const actorid
     
-    the actor to aply the chat bubble
-    
+    //the actor to aply the chat bubble
+
     const str[]
     
-    the string for bubble
+    //the string for bubble
     
     delay
     
-    the time in miliseconds for delete the label
+    //the time in miliseconds for delete the label
 return
     1 - succes
     2 - failure
 ```
 ### TogglePlayerTargetActor
-```
+```cpp
 params
     
     const playerid
     
-    player for autorize aim actors
+    //player for autorize aim actors
     
     toggle
-    
+    /*
     1 - toggle
     2 - not toggle
 return
     1 - succes
     2 - failure
 FUNC:
-    able the player to call OnPlayerTargetActor;
+    able the player to call OnPlayerTargetActor;*/
 ```
 ## Callbacks
 
 ### OnPlayerTargetActor
-```
+```cpp
 params
     
     const playerid
     
-    player who target the actor
+    //player who target the actor
 
     
     const actorid
     
-    actor who player's target
-return
+    //actor who player's target
+//return
     1
 ```
 
