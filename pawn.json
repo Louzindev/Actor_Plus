@@ -10,11 +10,9 @@
     },
     "resources": [
         {
-            "name": "Actor_Plus.zip",
+            "name": "Actor_Plus.dll",
             "platform": "windows",
-            "archive": true,
-            "version": "0.3.7",
-            "plugins": ["Plugin/Actor_Plus.dll"]
+            "archive": true
         }
     ]
   }
