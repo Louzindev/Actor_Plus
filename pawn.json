@@ -14,7 +14,7 @@
             "platform": "windows",
             "archive": true,
             "version": "0.3.7",
-            "plugins": ["Plugins/Actor_Plus.dll"]
+            "plugins": ["Plugin/Actor_Plus.dll"]
         }
     ]
   }
