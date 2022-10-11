@@ -8,7 +8,7 @@
 #define _ACTOR_PLUS_included
 
 #define MAJOR_VERISON (1)
-#define MINOR_VERSION (2)
+#define MINOR_VERSION (1)
 #define PATCH_VERSION (0)
 
 
@@ -16,10 +16,8 @@ native HelloWorld();
 native GetActorWhoPlayerTarget(const playerid);
 native SetActorChatBubble(const actorid, const str[], delay); 
 native TogglePlayerTargetActor(const playerid, Togle);
-native CheckVersion(major, minor);
-
-
 forward OnPlayerTargetActor(const playerid, const actorid);
+native CheckVersion(major, minor);
 
 #if !defined NO_ACTORPLUS_CHECK_VERSION 
 	public OnGameModeInit()

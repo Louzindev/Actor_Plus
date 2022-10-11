@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hxx"
 #include "Native.hxx"
 #include "ActorPlus.hxx"
 

@@ -11,7 +11,7 @@ namespace Native {
         int playerid = static_cast<int>(params[1]);
         int toggle = static_cast<int>(params[2]);
 
-        actor_p::TogglePlayerTargetActor(playerid, toggle);
+        actor_p::TogglePlayerTargetActor(playerid, toggle, amx);
 
         return 1;
     }
@@ -44,43 +44,43 @@ namespace Native {
         if (major == MAJOR_VERSION) {
             if (minor < MINOR_VERSION) {
                 logprintf("\n=============> WARNING <=============");
-                logprintf("You're using an old version include for Actor_Plus");
-                logprintf("Actual Version: %d.%d.%d", major, minor, patch);
-                logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+                logprintf("[Actor_Plus]:You're using an old version include for Actor_Plus");
+                logprintf("[Actor_Plus]:Actual Version: %d.%d.%d", major, minor, patch);
+                logprintf("[Actor_Plus]:Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
                 logprintf("=============> WARNING <=============\n\n");
             }
             else if (minor > MINOR_VERSION) {
                 logprintf("\n=============> WARNING <=============");
-                logprintf("You're using an old version plugin for Actor_Plus");
-                logprintf("Actual Version: %d.%d.%d", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION);
-                logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+                logprintf("[Actor_Plus]:You're using an old version plugin for Actor_Plus");
+                logprintf("[Actor_Plus]:Actual Version: %d.%d.%d", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION);
+                logprintf("[Actor_Plus]:Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
                 logprintf("\n=============> WARNING <=============");
             }
         }
         if (major == MAJOR_VERSION && minor == MINOR_VERSION) {
             if (patch < PATCH_VERSION) {
-                logprintf("You're using an old patch include for Actor_Plus, Consider update it.");
+                logprintf("[Actor_Plus]:You're using an old patch include for Actor_Plus, Consider update it.");
             }
             if (patch > PATCH_VERSION) {
-                logprintf("You're using an old patch plugin for Actor_Plus, Consider update it.");
+                logprintf("[Actor_Plus]:You're using an old patch plugin for Actor_Plus, Consider update it.");
             }
         }
         if (major > MAJOR_VERSION) {
             logprintf("\n=============> ERROR <=============");
-            logprintf("You're using an old version plugin for Actor_Plus");
-            logprintf("Actual Version: %d.%d.%d", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION);
-            logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
-            logprintf("Shuting down...");
+            logprintf("[Actor_Plus]:You're using an old version plugin for Actor_Plus");
+            logprintf("[Actor_Plus]:Actual Version: %d.%d.%d", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION);
+            logprintf("[Actor_Plus]:Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+            logprintf("[Actor_Plus]:Shuting down...");
             logprintf("\n=============> ERROR <=============");
             std::this_thread::sleep_for(std::chrono::milliseconds(5000));
             GameModeExit();
         }
         if (major < MAJOR_VERSION) {
             logprintf("\n=============> ERROR <=============");
-            logprintf("You're using an old version include for Actor_Plus");
-            logprintf("Actual Version: %d.%d.%d", major, minor, patch);
-            logprintf("Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
-            logprintf("Shuting down...");
+            logprintf("[Actor_Plus]:You're using an old version include for Actor_Plus");
+            logprintf("[Actor_Plus]:Actual Version: %d.%d.%d", major, minor, patch);
+            logprintf("[Actor_Plus]:Go to https://github.com/LouzinDeev/Actor_Plus and download the last version");
+            logprintf("[Actor_Plus]:Shuting down...");
             logprintf("\n=============> ERROR <=============");
             std::this_thread::sleep_for(std::chrono::milliseconds(5000));
             GameModeExit();

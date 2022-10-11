@@ -1,6 +1,6 @@
 #ifndef NATIVE_H_INCLUDED
 #define NATIVE_H_INCLUDED
-#include "main.h"
+#include "main.hxx"
 #include "amx/amx.h"
 #include "lzn_lib.hxx"
 #include "ActorPlus.hxx"

@@ -6,3 +6,4 @@ EXPORTS
       AmxUnload
       ProcessTick
       OnGameModeInit
+      OnPlayerKeyStateChange

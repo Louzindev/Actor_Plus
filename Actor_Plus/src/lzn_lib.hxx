@@ -1,6 +1,6 @@
 #ifndef LZNLIB_H_INCLUDED
 #define LZNLIB_H_INCLUDED
-#include "main.h"
+#include "main.hxx"
 #include <thread>
 
 namespace lzn {

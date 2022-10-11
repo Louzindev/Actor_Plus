@@ -1,0 +1,357 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:10:38] language = ""  (string)
+[18:10:38] 
+[18:10:38] Server Plugins
+[18:10:38] --------------
+[18:10:38]  Loading plugin: Debug/Actor_Plus.dll
+[18:10:38]  * ActorPlus 1.1 loaded
+	Author: LouzinDeev
+[18:10:38]   Loaded.
+[18:10:38]  Loading plugin: sscanf
+[18:10:38] 
+[18:10:38]  ===============================
+[18:10:38] 
+[18:10:38]       sscanf plugin loaded.     
+[18:10:38] 
+[18:10:38]          Version: 2.13.2
+[18:10:38] 
+[18:10:38]    (c) 2022 Alex "Y_Less" Cole  
+[18:10:38] 
+[18:10:38]  ===============================
+[18:10:38] 
+[18:10:38]   Loaded.
+[18:10:38]  Loaded 2 plugins.
+
+[18:10:38] 
+[18:10:38] Filterscripts
+[18:10:38] ---------------
+[18:10:38]   Loaded 0 filterscripts.
+
+[18:10:38] Hello, Aki e o louzin
+[18:10:38] Number of vehicle models: 0
+[18:11:03] [connection] incoming connection: 127.0.0.1:60517 id: 0
+[18:11:04] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+Console input: exit
+[18:11:50] --- Server Shutting Down.
+[18:11:50] [part] Louzin_Deev has left the server (0:0)
+[18:11:50]  * ActorPlus 1.1 unloaded.
+[18:11:50] 
+[18:11:50]  ===============================
+[18:11:50] 
+[18:11:50]      sscanf plugin unloaded.    
+[18:11:50] 
+[18:11:50]  ===============================
+[18:11:50] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:13:42] language = ""  (string)
+[18:13:42] 
+[18:13:42] Server Plugins
+[18:13:42] --------------
+[18:13:42]  Loading plugin: Debug/Actor_Plus.dll
+[18:13:42]  * ActorPlus 1.1 loaded
+	Author: LouzinDeev
+[18:13:42]   Loaded.
+[18:13:42]  Loading plugin: sscanf
+[18:13:42] 
+[18:13:42]  ===============================
+[18:13:42] 
+[18:13:42]       sscanf plugin loaded.     
+[18:13:42] 
+[18:13:42]          Version: 2.13.2
+[18:13:42] 
+[18:13:42]    (c) 2022 Alex "Y_Less" Cole  
+[18:13:42] 
+[18:13:42]  ===============================
+[18:13:42] 
+[18:13:42]   Loaded.
+[18:13:42]  Loaded 2 plugins.
+
+[18:13:42] 
+[18:13:42] Filterscripts
+[18:13:42] ---------------
+[18:13:42]   Loaded 0 filterscripts.
+
+[18:13:42] Hello, Aki e o louzin
+[18:13:42] Number of vehicle models: 0
+[18:13:53] [connection] incoming connection: 127.0.0.1:49282 id: 0
+[18:13:53] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+Console input: exit
+[18:14:26] --- Server Shutting Down.
+[18:14:26] [part] Louzin_Deev has left the server (0:0)
+[18:14:26]  * ActorPlus 1.1 unloaded.
+[18:14:26] 
+[18:14:26]  ===============================
+[18:14:26] 
+[18:14:26]      sscanf plugin unloaded.    
+[18:14:26] 
+[18:14:26]  ===============================
+[18:14:26] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:15:10] language = ""  (string)
+[18:15:10] 
+[18:15:10] Server Plugins
+[18:15:10] --------------
+[18:15:10]  Loading plugin: Debug/Actor_Plus.dll
+[18:15:10]  * ActorPlus 1.1 loaded
+	Author: LouzinDeev
+[18:15:10]   Loaded.
+[18:15:10]  Loading plugin: sscanf
+[18:15:10] 
+[18:15:10]  ===============================
+[18:15:10] 
+[18:15:10]       sscanf plugin loaded.     
+[18:15:10] 
+[18:15:10]          Version: 2.13.2
+[18:15:10] 
+[18:15:10]    (c) 2022 Alex "Y_Less" Cole  
+[18:15:10] 
+[18:15:10]  ===============================
+[18:15:10] 
+[18:15:10]   Loaded.
+[18:15:10]  Loaded 2 plugins.
+
+[18:15:10] 
+[18:15:10] Filterscripts
+[18:15:10] ---------------
+[18:15:10]   Loaded 0 filterscripts.
+
+[18:15:10] Hello, Aki e o louzin
+[18:15:10] Number of vehicle models: 0
+[18:15:21] [connection] incoming connection: 127.0.0.1:60954 id: 0
+[18:15:21] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+Console input: exit
+[18:15:49] --- Server Shutting Down.
+[18:15:49] [part] Louzin_Deev has left the server (0:0)
+[18:15:49]  * ActorPlus 1.1 unloaded.
+[18:15:49] 
+[18:15:49]  ===============================
+[18:15:49] 
+[18:15:49]      sscanf plugin unloaded.    
+[18:15:49] 
+[18:15:49]  ===============================
+[18:15:49] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:16:50] language = ""  (string)
+[18:16:50] 
+[18:16:50] Server Plugins
+[18:16:50] --------------
+[18:16:50]  Loading plugin: Debug/Actor_Plus.dll
+[18:16:50]  * ActorPlus 1.1 loaded
+	Author: LouzinDeev
+[18:16:50]   Loaded.
+[18:16:50]  Loading plugin: sscanf
+[18:16:50] 
+[18:16:50]  ===============================
+[18:16:50] 
+[18:16:50]       sscanf plugin loaded.     
+[18:16:50] 
+[18:16:50]          Version: 2.13.2
+[18:16:50] 
+[18:16:50]    (c) 2022 Alex "Y_Less" Cole  
+[18:16:50] 
+[18:16:50]  ===============================
+[18:16:50] 
+[18:16:50]   Loaded.
+[18:16:50]  Loaded 2 plugins.
+
+[18:16:50] 
+[18:16:50] Filterscripts
+[18:16:50] ---------------
+[18:16:50]   Loaded 0 filterscripts.
+
+[18:16:50] Hello, Aki e o louzin
+[18:16:50] Number of vehicle models: 0
+[18:17:01] [connection] incoming connection: 127.0.0.1:58901 id: 0
+[18:17:01] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+Console input: exit
+[18:17:49] --- Server Shutting Down.
+[18:17:49] [part] Louzin_Deev has left the server (0:0)
+[18:17:49]  * ActorPlus 1.1 unloaded.
+[18:17:49] 
+[18:17:49]  ===============================
+[18:17:49] 
+[18:17:49]      sscanf plugin unloaded.    
+[18:17:49] 
+[18:17:49]  ===============================
+[18:17:49] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:18:41] language = ""  (string)
+[18:18:41] 
+[18:18:41] Server Plugins
+[18:18:41] --------------
+[18:18:41]  Loading plugin: Debug/Actor_Plus.dll
+[18:18:41]  * ActorPlus 1.1 loaded
+	Author: LouzinDeev
+[18:18:41]   Loaded.
+[18:18:41]  Loading plugin: sscanf
+[18:18:41] 
+[18:18:41]  ===============================
+[18:18:41] 
+[18:18:41]       sscanf plugin loaded.     
+[18:18:41] 
+[18:18:41]          Version: 2.13.2
+[18:18:41] 
+[18:18:41]    (c) 2022 Alex "Y_Less" Cole  
+[18:18:41] 
+[18:18:41]  ===============================
+[18:18:41] 
+[18:18:41]   Loaded.
+[18:18:41]  Loaded 2 plugins.
+
+[18:18:41] 
+[18:18:41] Filterscripts
+[18:18:41] ---------------
+[18:18:41]   Loaded 0 filterscripts.
+
+[18:18:41] Hello, Aki e o louzin
+[18:18:41] Number of vehicle models: 0
+[18:18:52] [connection] incoming connection: 127.0.0.1:56673 id: 0
+[18:18:53] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+[18:19:01] Actor invalido
+[18:19:02] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:19:03] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:19:04] Actor invalido
+[18:19:04] Actor invalido
+[18:19:05] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:19:06] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:19:07] Actor invalido
+[18:19:08] Actor invalido
+[18:19:08] Actor invalido
+[18:19:09] Actor invalido
+[18:19:10] Actor invalido
+[18:19:11] Actor invalido
+[18:19:12] Actor invalido
+[18:19:12] Actor invalido
+[18:19:13] Actor invalido
+[18:19:14] Actor invalido
+[18:19:15] Actor invalido
+[18:19:16] Actor invalido
+[18:19:16] Actor invalido
+[18:19:17] Actor invalido
+[18:19:18] Actor invalido
+Console input: exit
+[18:19:18] --- Server Shutting Down.
+[18:19:18] [part] Louzin_Deev has left the server (0:0)
+[18:19:18]  * ActorPlus 1.1 unloaded.
+[18:19:18] 
+[18:19:18]  ===============================
+[18:19:18] 
+[18:19:18]      sscanf plugin unloaded.    
+[18:19:18] 
+[18:19:18]  ===============================
+[18:19:18] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:25:51] language = ""  (string)
+[18:25:51] 
+[18:25:51] Server Plugins
+[18:25:51] --------------
+[18:25:51]  Loading plugin: Debug/Actor_Plus.dll
+[18:25:51]  * ActorPlus 1.1 loaded
+	Author: LouzinDeev
+[18:25:51]   Loaded.
+[18:25:51]  Loading plugin: sscanf
+[18:25:51] 
+[18:25:51]  ===============================
+[18:25:51] 
+[18:25:51]       sscanf plugin loaded.     
+[18:25:51] 
+[18:25:51]          Version: 2.13.2
+[18:25:51] 
+[18:25:51]    (c) 2022 Alex "Y_Less" Cole  
+[18:25:51] 
+[18:25:51]  ===============================
+[18:25:51] 
+[18:25:51]   Loaded.
+[18:25:51]  Loaded 2 plugins.
+
+[18:25:51] 
+[18:25:51] Filterscripts
+[18:25:51] ---------------
+[18:25:51]   Loaded 0 filterscripts.
+
+[18:25:51] Hello, Aki e o louzin
+[18:25:51] Number of vehicle models: 0
+[18:26:03] [connection] incoming connection: 127.0.0.1:55093 id: 0
+[18:26:03] [join] Louzin_Deev has joined the server (0:127.0.0.1)
+[18:26:10] MUDOU A KEY
+[18:26:10] MUDOU A KEY
+[18:26:10] MUDOU A KEY
+[18:26:10] MUDOU A KEY
+[18:26:10] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:11] MUDOU A KEY
+[18:26:19] MUDOU A KEY
+[18:26:28] MUDOU A KEY
+[18:26:29] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:26:30] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:26:31] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:26:32] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:26:32] EmitPawnCallback NOTE:  OnPawnCallbackEmitted callback returned 1!
+[18:26:32] MUDOU A KEY
+Console input: exit
+[18:26:47] --- Server Shutting Down.
+[18:26:47] [part] Louzin_Deev has left the server (0:0)
+[18:26:47]  * ActorPlus 1.1 unloaded.
+[18:26:47] 
+[18:26:47]  ===============================
+[18:26:47] 
+[18:26:47]      sscanf plugin unloaded.    
+[18:26:47] 
+[18:26:47]  ===============================
+[18:26:47] 
