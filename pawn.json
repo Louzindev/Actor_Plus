@@ -7,6 +7,11 @@
             "name": "Actor_Plus.dll",
             "platform": "windows",
             "archive": false
+        },
+        {
+            "name": "Actor_Plus.so",
+            "platform": "linux",
+            "archive": false
         }
     ]
 }
