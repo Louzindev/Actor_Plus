@@ -1,6 +1,7 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
+#define SAMPGDK_AMALGAMATION
 #include <iostream>
 #include <chrono>
 #include <thread>
