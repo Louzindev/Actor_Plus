@@ -2,8 +2,8 @@
 #define NATIVE_H_INCLUDED
 #include "main.h"
 #include "amx/amx.h"
-#include "lzn_lib.h"
-#include "ActorPlus.h"
+#include "lzn_lib.hxx"
+#include "ActorPlus.hxx"
 
 typedef cell AMX_NATIVE_CALL(*AMX_Function_t)(AMX* amx, cell* params);
 
@@ -22,7 +22,7 @@ namespace Native {
     AMX_DECLARE_NATIVE(SetActorChatBubble);
     // native CheckVersion(major, minor, patch);
     AMX_DECLARE_NATIVE(CheckVersion);
-    AMX_NATIVE_INFO PluginNatives[];
+    extern AMX_NATIVE_INFO PluginNatives[];
 }
 
 #endif

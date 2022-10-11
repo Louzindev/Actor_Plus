@@ -1,5 +1,5 @@
-#include "ActorPlus.h"
-#include "lzn_lib.h"
+#include "ActorPlus.hxx"
+#include "lzn_lib.hxx"
 
 namespace actor_p {
     act_p* actor;

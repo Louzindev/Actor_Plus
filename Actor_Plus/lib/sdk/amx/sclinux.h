@@ -40,6 +40,7 @@
 # define __BIG_ENDIAN    BIG_ENDIAN
 #endif
 
+#define __BYTE_ORDER BYTE_ORDER
 #if !defined __BYTE_ORDER
 # error	"Can't figure computer byte order (__BYTE_ORDER macro not found)"
 #endif
