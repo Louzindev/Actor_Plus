@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk\amxplugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\ActorPlus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\lzn_lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Native.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\sampgdk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2CA7D2E-3379-31F5-BAAD-B0FC5D5B952F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

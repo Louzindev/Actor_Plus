@@ -2094,3 +2094,32 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 Console input: exit
 [22:57:02] --- Server Shutting Down.
 [22:57:02]  * ActorPlus 1.1 unloaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:01:30] language = ""  (string)
+[23:01:30] 
+[23:01:30] Server Plugins
+[23:01:30] --------------
+[23:01:30]  Loading plugin: Actor_Plus.dll
+[23:01:30]  * ActorPlus 1.0 loaded
+	Author: LouzinDeev
+[23:01:30]   Loaded.
+[23:01:30]  Loaded 1 plugins.
+
+[23:01:31] 
+[23:01:31] Filterscripts
+[23:01:31] ---------------
+[23:01:31]   Loaded 0 filterscripts.
+
+[23:01:31] Hello, Aki e o louzin
+[23:01:31] Number of vehicle models: 0
+Console input: exit
+[23:01:36] --- Server Shutting Down.
+[23:01:36]  * ActorPlus 1.0 unloaded.

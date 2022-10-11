@@ -1,7 +1,6 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
-#define HAVE_STDINT_H
 #include <iostream>
 #include <chrono>
 #include <thread>
