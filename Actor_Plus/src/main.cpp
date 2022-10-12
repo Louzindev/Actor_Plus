@@ -1,6 +1,6 @@
-#include "main.hxx"
-#include "Native.hxx"
-#include "ActorPlus.hxx"
+#include "main.h"
+#include "Native.h"
+#include "ActorPlus.h"
 
 logprintf_t logprintf;
 extern void* pAMXFunctions;

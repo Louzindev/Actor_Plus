@@ -1,7 +1,8 @@
 #ifndef ACTORPLUS_H_INCLUDED
 #define ACTORPLUS_H_INCLUDED
 
-#include "main.hxx"
+#include "main.h"
+#include "lzn_lib.h"
 
 namespace actor_p {
 

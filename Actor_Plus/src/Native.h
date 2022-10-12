@@ -1,9 +1,9 @@
 #ifndef NATIVE_H_INCLUDED
 #define NATIVE_H_INCLUDED
-#include "main.hxx"
+#include "main.h"
 #include "amx/amx.h"
-#include "lzn_lib.hxx"
-#include "ActorPlus.hxx"
+#include "lzn_lib.h"
+#include "ActorPlus.h"
 
 typedef cell AMX_NATIVE_CALL(*AMX_Function_t)(AMX* amx, cell* params);
 

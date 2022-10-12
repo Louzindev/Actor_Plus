@@ -1,5 +1,4 @@
-#include "ActorPlus.hxx"
-#include "lzn_lib.hxx"
+#include "ActorPlus.h"
 
 namespace actor_p {
     act_p* actor;
@@ -37,9 +36,9 @@ namespace actor_p {
         int playerid = (int)param;
         if(player[playerid].targetActor == 0) {
             KillTimer(timerid);
-            logprintf("Target = 0");
             return;
         }
+        
         int actorid = GetActorWhoPlayerTarget(playerid);
         if(actorid != INVALID_ACTOR_ID) {
             int idx = 0;
