@@ -1,5 +1,5 @@
 all:
-	cd build && cmake .. && cmake --build .
+	cd build && cmake -A Win32 .. && cmake --build .
 
 debug:
 	cd test && sampctl p build && sampctl p run

@@ -1,4 +1,4 @@
-# Install script for directory: D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src
+# Install script for directory: D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

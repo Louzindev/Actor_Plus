@@ -1,5 +1,6 @@
 # CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in
 C:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake
-D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/lib/cmake-modules/AMXConfig.cmake
-D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/lib/cmake-modules/AddSAMPPlugin.cmake
-D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/CMakeLists.txt
+D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/lib/cmake/AMXConfig.cmake
+D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/lib/cmake/AddSAMPPlugin.cmake
+D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt

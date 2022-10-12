@@ -1,4 +1,4 @@
-# Install script for directory: D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus
+# Install script for directory: D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build/src/cmake_install.cmake")
+  include("D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

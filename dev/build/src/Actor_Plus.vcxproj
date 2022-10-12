@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B6CBA881-9A96-31B4-AE6B-BC08704E6B38}</ProjectGuid>
+    <ProjectGuid>{F8120607-D89C-3312-AEB4-A6DDB161B32B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\test\plugins\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\test\plugins\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Actor_Plus.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Actor_Plus</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\test\plugins\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\test\plugins\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Actor_Plus.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Actor_Plus</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\test\plugins\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\test\plugins\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Actor_Plus.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Actor_Plus</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\test\plugins\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\test\plugins\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Actor_Plus.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Actor_Plus</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_INTTYPES_H;HAVE_MALLOC_H;HAVE_STDINT_H;CMAKE_INTDIR=\"Debug\";Actor_Plus_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,9 +119,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/Debug/Actor_Plus.lib</ImportLibrary>
-      <ModuleDefinitionFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/main.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/Debug/Actor_Plus.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/Debug/Actor_Plus.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/main.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/Debug/Actor_Plus.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_INTTYPES_H;HAVE_MALLOC_H;HAVE_STDINT_H;CMAKE_INTDIR=\"Release\";Actor_Plus_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,9 +163,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/Release/Actor_Plus.lib</ImportLibrary>
-      <ModuleDefinitionFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/main.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/Release/Actor_Plus.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/Release/Actor_Plus.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/main.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/Release/Actor_Plus.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -191,10 +191,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_INTTYPES_H;HAVE_MALLOC_H;HAVE_STDINT_H;CMAKE_INTDIR=\"MinSizeRel\";Actor_Plus_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -207,9 +207,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/MinSizeRel/Actor_Plus.lib</ImportLibrary>
-      <ModuleDefinitionFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/main.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/MinSizeRel/Actor_Plus.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/MinSizeRel/Actor_Plus.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/main.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/MinSizeRel/Actor_Plus.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -234,10 +234,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_INTTYPES_H;HAVE_MALLOC_H;HAVE_STDINT_H;CMAKE_INTDIR=\"RelWithDebInfo\";Actor_Plus_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Actor_Plus;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,9 +250,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/RelWithDebInfo/Actor_Plus.lib</ImportLibrary>
-      <ModuleDefinitionFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/main.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/test/plugins/RelWithDebInfo/Actor_Plus.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/RelWithDebInfo/Actor_Plus.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/main.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/test/plugins/RelWithDebInfo/Actor_Plus.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,11 +260,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\CMakeLists.txt">
+    <CustomBuild Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus -BD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build --check-stamp-file D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev -BD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build --check-stamp-file D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,12 +272,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AMXConfig.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus -BD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build --check-stamp-file D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev -BD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build --check-stamp-file D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,12 +285,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AMXConfig.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus -BD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build --check-stamp-file D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev -BD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build --check-stamp-file D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,12 +298,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AMXConfig.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus -BD:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build --check-stamp-file D:/LouzinDeev-LAB/SAMP_PLUGINS/Actor_Plus/Actor_Plus/build/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev -BD:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build --check-stamp-file D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -311,23 +311,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AMXConfig.cmake;D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\cmake-modules\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk\amxplugin.cpp" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\ActorPlus.cpp" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\lzn_lib.cpp" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.cpp" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Native.cpp" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\sampgdk.c" />
-    <None Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.def" />
+    <ClCompile Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\sdk\amxplugin.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\ActorPlus.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\lzn_lib.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\main.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\Native.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\sampgdk.c" />
+    <None Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\src\main.def" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\build\ZERO_CHECK.vcxproj">
-      <Project>{2DD67788-F5EC-35DA-9513-9A6FD7AA013A}</Project>
+    <ProjectReference Include="D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\ZERO_CHECK.vcxproj">
+      <Project>{722F50DF-76E9-3046-B9A5-34F4682032F0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
