@@ -1,5 +1,4 @@
 #include "ActorPlus.h"
-
 namespace actor_p {
     act_p* actor;
     player_p player[MAX_PLAYERS];
@@ -38,7 +37,7 @@ namespace actor_p {
             KillTimer(timerid);
             return;
         }
-        
+
         int actorid = GetActorWhoPlayerTarget(playerid);
         if(actorid != INVALID_ACTOR_ID) {
             int idx = 0;
