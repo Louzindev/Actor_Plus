@@ -4,16 +4,16 @@
     <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk\amxplugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\ActorPlus.cxx">
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\ActorPlus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\lzn_lib.cxx">
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\lzn_lib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.cxx">
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Native.cxx">
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Native.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\sampgdk.c">

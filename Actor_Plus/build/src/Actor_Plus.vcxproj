@@ -318,10 +318,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\lib\sdk\amxplugin.cpp" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\ActorPlus.cxx" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\lzn_lib.cxx" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.cxx" />
-    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Native.cxx" />
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\ActorPlus.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\lzn_lib.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.cpp" />
+    <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\Native.cpp" />
     <ClCompile Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\sampgdk.c" />
     <None Include="D:\LouzinDeev-LAB\SAMP_PLUGINS\Actor_Plus\Actor_Plus\src\main.def" />
   </ItemGroup>
