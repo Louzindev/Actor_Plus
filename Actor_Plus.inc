@@ -16,7 +16,7 @@ native HelloWorld();
 native GetActorWhoPlayerTarget(const playerid);
 native SetActorChatBubble(const actorid, const str[], delay); 
 native TogglePlayerTargetActor(const playerid, Togle);
-native CheckVersion(major, minor);
+native CheckVersion(major, minor, patch);
 
 
 forward OnPlayerTargetActor(const playerid, const actorid);
@@ -24,7 +24,7 @@ forward OnPlayerTargetActor(const playerid, const actorid);
 #if !defined NO_ACTORPLUS_CHECK_VERSION 
 	public OnGameModeInit()
 	{
-		CheckVersion(MAJOR_VERISON, MINOR_VERSION);
+		CheckVersion(MAJOR_VERISON, MINOR_VERSION, PATCH_VERSION);
 		#if defined actp_OnGameModeInit
 			return actp_OnGameModeInit();
 		#else
