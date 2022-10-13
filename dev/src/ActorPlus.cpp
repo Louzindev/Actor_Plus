@@ -9,7 +9,7 @@ namespace actor_p {
 
     int GetActorWhoPlayerTarget(const int playerid) {
         int aimid = GetPlayerTargetActor(playerid);
-        if (player[playerid].targetActor == 0)
+        if (!player[playerid].targetActor)
             return INVALID_ACTOR_ID;
         if (IsValidActor(aimid)) {
             if (IsPlayerAimingActor(playerid, aimid)) {
@@ -33,7 +33,7 @@ namespace actor_p {
 
     void SAMPGDK_CALL GetsTarget(int timerid, void* param) {
         int playerid = (int)param;
-        if(player[playerid].targetActor == 0) {
+        if(!player[playerid].targetActor) {
             KillTimer(timerid);
             return;
         }
@@ -57,9 +57,9 @@ namespace actor_p {
         }
     }
 
-    void TogglePlayerTargetActor(int playerid, int toggle, AMX* amx) {
-        if (toggle == 1) {
-            player[playerid].targetActor = 1;
+    void TogglePlayerTargetActor(int playerid, bool toggle, AMX* amx) {
+        if (toggle) {
+            player[playerid].targetActor = true;
             player[playerid].public_amx = amx;
         }     
         else 
@@ -85,7 +85,7 @@ namespace actor_p {
     // =====================> ActorBubble <====================== 
     void SAMPGDK_CALL DeleteActorBubble(int timerid, void* param) {
         int actorid = (int)param;
-        Delete3DTextLabel(actor[actorid].BubbleLabel);
+        Delete3DTextLabel(actor[actorid].labels.BubbleLabel);
         return;
     }
 
@@ -93,8 +93,11 @@ namespace actor_p {
         float pos[3];
         GetActorPos(actorid, &pos[0], &pos[1], &pos[2]);
 
-        actor[actorid].BubbleLabel = Create3DTextLabel(text, -1, pos[0], pos[1], pos[2] + 1.5, 30.0, 0, false);
+        if(actor[actorid].labels.BubbleLabel)
+            Delete3DTextLabel(actor[actorid].labels.BubbleLabel);
 
+        actor[actorid].labels.BubbleLabel = Create3DTextLabel(text, -1, pos[0], pos[1], pos[2] + 1.5, 30.0, 0, false);
+        
         SetTimer(delay, false, DeleteActorBubble, (void*)actorid);
     }
     // =====================> end ActorBubble <======================

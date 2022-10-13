@@ -12,7 +12,7 @@
 
 #define MAJOR_VERSION (1)
 #define MINOR_VERSION (2)
-#define PATCH_VERSION (0)
+#define PATCH_VERSION (1)
 
 typedef void(*logprintf_t)(const char* format, ...);
 extern logprintf_t logprintf;
