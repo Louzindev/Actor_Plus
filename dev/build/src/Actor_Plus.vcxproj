@@ -272,7 +272,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
@@ -285,7 +285,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
@@ -298,7 +298,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/LouzinDeev-LAB/Plugin-Development/Actor_Plus/dev/src/CMakeLists.txt</Message>
@@ -311,7 +311,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AMXConfig.cmake;D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\lib\cmake\AddSAMPPlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\LouzinDeev-LAB\Plugin-Development\Actor_Plus\dev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
